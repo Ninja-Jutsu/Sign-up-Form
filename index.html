@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Sign-up Form">
+        <meta name="keywords" content="Sign-up, login">
+        <meta name="author" content="Ninja-Jutsu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+    </head> 
+
+<body>
+    <div class="hero-image">
+        <div class="hero-text">
+            <!-- <div class="trans-bg"></div> -->
+            <img src="logos/odin-lined.png" alt="TOP" class="odin-logo" width="100px">
+            <p>ODIN</p>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="headings">
+            <h2 class="first-heading">This my first form ever! if you would like to have some risk in your boring life, Sign-up.</h2>
+            <h2 class="second-heading">You are really bored. Go for it!</h2>
+        </div>
+
+        <div class="form-content">
+            <form id="form1" action="/action_page.php">
+                <fieldset name="form" , form="form1">
+                <legend>Let's go for it!</legend>
+                <div class="name-inputs">
+                    <div class="row">
+                        <label for="fname">FIRST NAME:</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>
+                    <div class="row">
+                        <label for="lname">LAST NAME:</label>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+                </div>
+                <div class="coordination-input">
+                    <div class="row">
+                        <label for="email">EMAIL:</label>
+                        <input type="email" id="email" name="email"><br><br>
+                    </div>
+                    <div class="row">
+                        <label for="phone-num">PHONE NUMBER:</label>
+                        <input type="tel" id="phone-num" name="phone-num">
+                    </div>
+                </div>
+                <div class="pwd-input">
+                    <div class="row">
+                        <label for="pwd">Password:</label>
+                        <input type="password" id="pwd" name="pwd"><br><br>
+                    </div>
+                    <div class="row">
+                        <label for="pwd-confirm">Confirm Password:</label>
+                        <input type="password" id="pwd-confirm" name="pwd-confirm">
+                    </div>
+                </div>
+                </fieldset>
+                <div>
+                    <button type="submit">Create account</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

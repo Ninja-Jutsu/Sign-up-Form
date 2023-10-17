@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ button,
+ input,
+ select,
+ textarea {
+    font-family: inherit; 
+    font-size: 100%;
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-image {
+    background: url(img/leaf.jpg) no-repeat center; 
+    background-size: cover;
+    height: 100vh;
+    width: 50vw;
+    max-width: 500px;
+    min-width: 280px;
+    position: relative;
+  }
+
+  .hero-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+p {
+    font-size: 30px;
+}
+
+legend {
+    font-weight: 700;
+}
+/* .trans-bg {
+    position: absolute;
+    background-color: black;
+    left: 0;
+    width: 280px;
+    height: 150px;
+    opacity: 0.5;
+} */
+
+.headings {
+    margin-top: 25vh;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 0px 30px 0 30px
+}
+
+.form-content {
+    padding: 10px 10px 50px 10px;
+    height: 300px;
+    width: 70vw;
+    margin: auto;
+}
+
+.name-inputs , 
+.coordination-input,
+.pwd-input {
+    display: flex;
+    gap:50px;
+    margin: 10px 0px 0px 30px;
+    height: 40px
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+fieldset {
+    height: 200px;
+    margin-bottom: 20px;
+}
